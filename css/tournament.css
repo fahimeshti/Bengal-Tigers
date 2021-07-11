@@ -1,0 +1,42 @@
+body{
+ background-color:rgb(0, 225, 255) ;   
+}
+#myHeader{
+    color: red;
+    padding:10px ;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+#weLove{
+    color: red;
+    padding:10px ;  
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 2px 2px 5px black;
+}
+
+.Time{
+    color:blue;  
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+   font-size: 30px;
+   text-shadow: 3px 3px 3px #ababab;
+}
+#Tournament2020Table {
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }

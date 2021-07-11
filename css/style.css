@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  color: #222;
+}
+      /* ----- Navbar Start ----- */
+      .navbar{
+        font-family: 'poppins', sans-serif;
+        background-color:#35424a;
+        color: #ffffff !important;
+        /* font-weight: 600; */
+        min-height: 60px;
+        border-bottom: #e8491d 3px solid;
+        border-top: #e8491d 3px solid;
+      }
+      #logo{
+          margin-top: 5px;
+      }
+      .navbar-dark .navbar-brand {
+          font-family: 'Otomanopee One', sans-serif;
+          color: #e8491d;
+          font-size: x-large;
+          padding-left: 8px;
+          transition-duration: 0.4s;
+      }
+      .navbar-dark .navbar-nav .nav-item .nav-link:hover,
+      .navbar-dark .navbar-nav .nav-item.active .nav-link {
+          color: tomato;
+      }
+      .navbar-dark .navbar-nav .nav-item .nav-link{
+          text-transform: uppercase;
+          font-size: 1.2em !important;
+          color: white;
+          padding: 5px 10px;
+          transition-duration: 0.4s;
+      }
+      .navbar-dark .navbar-toggler{
+          color: #e8491d;
+          /* border: none; */
+          /* border: 1px solid #fff; */
+          /* border-radius: 0; */
+          outline: none;
+      }
+      /* ----- Navbar END ----- */
+  /*---- Carousel Start ----*/
+#mainSlide{
+  max-height: 100vh;
+}
+#slideCaption {
+  background-color: rgba(0, 0, 0, 0.575);
+  margin-bottom: 48%;
+  padding: 10px 6px;
+  text-transform: uppercase;
+  border-radius: 17px;
+}
+#slideCaption h2{
+  color: white;
+  font-size: 65px;
+  font-weight: bold;
+  /* text-shadow: 1px 1px 15px #000; */
+}
+#slideCaption p{
+  color: #c04e2f;
+  font-size: 30px;
+  font-weight: bold;
+  /* text-shadow: 1px 1px 15px #e8491d; */
+}
+@media (max-width: 768px) {
+  #slideCaption{
+  margin-bottom: 0px;
+  }
+  #slideCaption h2{
+    font-size: 30px;
+  }
+#slideCaption p{
+  font-size: 16px;
+}
+
+}
+/* do not have any h3 yet but i will 
+ .carousel-caption h3{
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+} */
+
+/*____ Carousel END ____*/
+
+
+/*do not have primary button yet*/
+.button-primary{
+  background-color: #6648b1;
+  border: 1px solid #6648b1;
+}
+.button-primary:hover{
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
+}
+.jumbotron{
+  padding:1rem ;
+  border-radius: 0;
+  padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom:5px ;
+    background:#e6e6e6 ;
+}
+.btn001{
+  background: transparent;
+  color: #f27052;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .8px;
+  padding: 15px 33px;
+  border: 2px solid #f27052;
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.btn001:hover {
+  background-color: #f27052;
+  color: #fff;
+}
+#jumbo{
+  padding:1rem ;
+  border-radius: 0;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px ;
+  background:#e6e6e6 ;
+  text-align: center;
+}
+.padding{
+  padding-bottom: 2rem ;
+}
+.welcome{
+  width: 75%;
+  margin:0 auto;
+  padding-top:2rem ;
+}
+.welcome hr{
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top:.3rem ;
+  margin-bottom: 1rem;
+}
+#PlayWithUs{
+  /*list-style: none;*/
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px ;
+  background:#e6e6e6 ;
+}
+#PlayWithUsSection li{
+  list-style: none;
+    padding: 20px;
+    border: #e54d26 solid 1px;
+    margin-bottom:5px ;
+    background:#e6e6e6 ;
+}
+
+#RegistarButton{
+  color: orange; /*need to fix the color*/
+}
+.fa-futbol{
+  color: #e54d26
+  
+}
+.fa-futbol{
+  font-size: 5em;
+  margin:1rem;
+}
+
+.fun{
+  width: 100%;
+  height: 30px;
+  font-size: 16px;
+  margin-bottom: 2rem;
+  background:#e54d26;
+  color: white;
+  outline: none;
+}
+/* do not have, change to img*/
+.img{
+  max-width: 100%;
+}
+/*policies*/
+#policies{
+  float: left;
+  width: 65%;
+  margin-top: 10px;
+}
+.social a{
+  font-size: 4.5em;
+  padding: 3rem;
+}
+
+.fa-facebook{
+   color: #3b5998
+}
+.fa-twitter{ 
+  color: #00aced
+}
+.fa-twitter{ 
+    color: #00aced
+  }
+.fa-google-plus-g{ 
+      color: #dd4b39
+    }
+.fa-instagram{ 
+        color: #517fa4
+      }
+.fa-youtube{ 
+          color: #bb0000
+    }
+
+
+    
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover,
+.fa-youtube :hover{ 
+      color:#d5d5d5  
+   }
+   hr.light{
+     border-top: 1px solid #d5d5d5;
+     width: 75%;
+     margin-top: .8rem;
+     margin-bottom: 1rem;
+   }
+
+   hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+  }
+footer{
+     background-color: #e8491d; 
+   }
+footer p{
+     color: #d5d5d5;
+   }
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+.social a{
+  font-size: 4em;
+  padding:2rem;
+}
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+.parallax {
+  /* The image used */
+  background-image: linear-gradient(rgba(53, 66, 74, 0.8), rgba(53, 66, 74, 0.8)), url('../img/Three-teams.jpeg');
+  height: 50%; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+#T2020Button {
+  background-color: transparent;
+  color: #35424a;
+  padding: 5px 10px;
+  margin: 20px auto;
+  border: 2px solid #35424a;
+  border-radius: 0px;
+}
+#T2020Button:hover {
+background-color: tomato;
+color: white;
+border: 2px solid tomato
+}
+#footer2{
+  background: #35424a;
+  color: #8a99c0;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'poppins';
+}
+ h1{
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: bold !important;
+  color: #35424a;
+
+ }
+/* -------Gallery  Start-------  */
+.gallery-container h1 {
+  text-align: center;
+  margin: 25px;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: bold;
+  color: #35424a;
+}
+.tournament-gallery {
+  padding: 0px;
+}
+
+/* Override bootstrap column paddings */
+.tournament-gallery .row > div {
+  padding: 4px;
+}
+
+.tournament-gallery .lightbox img {
+  width: 100%;
+  border-radius: 0;
+  position: relative;
+}
+
+.tournament-gallery .lightbox:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -13px;
+  margin-left: -13px;
+  opacity: 0;
+  color: #fff;
+  font-size: 26px;
+  font-family: 'Glyphicons Halflings';
+  content: '';
+  pointer-events: none;
+  z-index: 9000;
+  transition: 0.4s;
+}
+.tournament-gallery .lightbox:after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  content: '';
+  transition: 0.4s;
+}
+.tournament-gallery .lightbox:hover:after,
+.tournament-gallery .lightbox:hover:before {
+  opacity: 1;
+}
+/* The left right Buttons  on Modal Gallery */
+.baguetteBox-button {
+  outline: none !important;
+}
+
+
+ /* ----- BackTop button ------  */
+.back-to-top{
+  background-color:#e8491d;
+  color: #35424a;
+  font-size: small;
+  padding: 0px;
+  margin: -45px -33px;
+  position: absolute;
+  cursor:pointer;
+  border-radius: 50%;
+  border: 2px solid #e8491d;
+  outline: none !important;
+  display:none;
+}
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
