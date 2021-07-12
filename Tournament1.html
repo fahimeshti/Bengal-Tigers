@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="description" content="Sports Club">
@@ -8,41 +7,72 @@
     <meta name="author" content="Faruq">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bengal Tigers | Tournament</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tournament.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 </head>
-
 <body>
+   <!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+	<a class="navbar-brand" href="index.html">
+			Bengal Tigers
+		<img id="logo" src="img/BTlogo.jpg" width="30" height="30" class="d-inline-block align-top" alt="Logo">
+	  </a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon"></span>
+	</button>
+  
+	<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+	  <ul class="navbar-nav ml-lg-auto">
+		<li class="nav-item">
+			<a class="nav-link" href="index.html">Home</a>
+		</li>
 
-    <header>
-        <div class="container">
-            <div id="branding">
-                <h1><span class="highlight">Bengal Tigers</span>
-                    <span class="highlight1">Sports Club</span>
-                </h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">services</a></li>
-                    <li class="current"><a href="Tournament1.html">Tournament</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+		<li class="nav-item">
+			<a class="nav-link" href="services.html">Services</a>
+		</li>
 
-    <section id="newsletter">
-        <div class="container">
+		<li class="nav-item">
+			<a class="nav-link" href="about.html">About</a>
+		</li>
+
+		<li class="nav-item active">
+			<a class="nav-link" href="Tournament1.html">Tournament</a>
+		</li>
+
+		<li class="nav-item">
+			<a class="nav-link" href="about.html">Members</a>
+		</li>
+
+		<li class="nav-item">
+			<a class="nav-link" href="services.html">Contact</a>
+		</li>
+	  </ul>
+	</div>
+  </nav>
+
+    <!-- newsletter -->
+  
+  <div class="container-fluid" id="newsLetter">
+    <div class="row align-items-center text-center">
+        <div class="col-md-6 col-sm-12">
             <h1>Subscribe to our newsletter</h1>
-            <form>
-                <input type="email" placeholder="Enter your email..">
-                <button type="submit" class="button_1">Subscribe</button>
-            </form>
         </div>
-    </section>
+        <div class="col-md-6 col-sm-12">
+            <form>
+                <input type="email" placeholder="Enter your email...">
+                <button type="submit" class="button_1">Subscribe</button>
+                </form>
+        </div>
+      </div>
+      </div>
 
-    <section id="main">
-        <div class="container">
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-around text-center">
+                <div class="col-md-6 col-sm-12">
             <article id="main-col">
                 <h1 class="page-title"> Schedule</h1>
                 <ul id="services">
@@ -54,7 +84,6 @@
                             sollicitudin.
                         </p>
                     </li>
-
                     <li>
                         <h3>The Final</h3>
                         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum commodo tellus ut magna
@@ -73,76 +102,75 @@
                         </p>
                     </li>
                 </ul>
-
             </article>
+ </div>
 
+ <div class="col-md-4 col-sm-12">
             <aside id="sidebar">
                 <div class="dark">
-                    <h3><span class="highlight3">Tournament 2020</span> </h3>
-                    <form class="registration">
-                       
-                            <!--div Tournament2020 start-->
-                            <div id="Tournament2020" class="Tournament2020">
-                                <h1 id="Tournament2020Header">The Teams </h1>
-                            
-                            
-                                <table id="Tournament2020Table" name="Tournament2020Table" class="Tournament2020Table">
-                                    <tr>
-                                        <th>The Red Team</th>
-                                        <th> The Blue Team</th>
-                                        <th> The Green Team</th>
-                                    </tr>
-                                    <tr>
-                                        <td>Faruq </td>
-                                        <td>Zahid</td>
-                                        <td>Forhad</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Arcenio</td>
-                                        <td>Riazul</td>
-                                        <td>Saffat</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Sabbir</td>
-                                        <td>Liton</td>
-                                        <td>Koyel</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Shovon</td>
-                                        <td>Kevin</td>
-                                        <td>Vu</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Xl</td>
-                                        <td>Tariq</td>
-                                        <td>Nabil</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Aqil</td>
-                                        <td>Raisol</td>
-                                        <td>Nayon</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Takbir</td>
-                                        <td>Jonny</td>
-                                        <td>Fayez</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Razzak</td>
-                                        <td>Adnan</td>
-                                        <td>SK Kamal</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Kamal</td>
-                                        <td>Shuzon</td>
-                                        <td>Praval</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Shohag</td>
-                                        <td>Asraf</td>
-                                        <td>Shohag</td>
-                                    </tr>
-                            
+                    <h1>Tournament 2020</h1>
+ <form class="registration">
+        <!--div Tournament2020 start-->
+         <div id="Tournament2020" class="Tournament2020">
+              <h3 id="Tournament2020Header">The Teams </h3>
+                           
+    <table id="Tournament2020Table" name="Tournament2020Table" class="Tournament2020Table">
+    <tr>
+        <th>The Red Team</th>
+        <th> The Blue Team</th>
+        <th> The Green Team</th>
+    </tr>
+    <tr>
+        <td>Faruq </td>
+        <td>Zahid</td>
+        <td>Forhad</td>
+    </tr>
+    <tr>
+        <td>Arcenio</td>
+        <td>Riazul</td>
+        <td>Saffat</td>
+    </tr>
+    <tr>
+        <td>Sabbir</td>
+        <td>Liton</td>
+        <td>Koyel</td>
+    </tr>
+    <tr>
+        <td>Shovon</td>
+        <td>Kevin</td>
+        <td>Vu</td>
+    </tr>
+    <tr>
+        <td>Xl</td>
+        <td>Tariq</td>
+        <td>Nabil</td>
+    </tr>
+    <tr>
+        <td>Aqil</td>
+        <td>Raisol</td>
+        <td>Nayon</td>
+    </tr>
+    <tr>
+        <td>Takbir</td>
+        <td>Jonny</td>
+        <td>Fayez</td>
+    </tr>
+    <tr>
+        <td>Razzak</td>
+        <td>Adnan</td>
+        <td>SK Kamal</td>
+    </tr>
+    <tr>
+        <td>Kamal</td>
+        <td>Shuzon</td>
+        <td>Praval</td>
+    </tr>
+    <tr>
+        <td>Shohag</td>
+        <td>Asraf</td>
+        <td>Shohag</td>
+    </tr>
+ 
                                 </table>
                             
                             </div>
@@ -153,14 +181,19 @@
 
             </aside>
         </div>
+</div>
+</div>
+    <div class="col-12" id="footer2">
+        <button style="background-color: #fff;border:1px solid #fff;" class="back-to-top"><i class="far fa-arrow-alt-circle-up fa-4x"></i></button><br>
+        <!-- <hr class="light-100"> -->
+        <p>BengalTigers.com - <script>document.write(new Date().getFullYear())</script></p>
+        <p>Copyrights &copy; Molla Mohammed Omar Faruq Jewel</p>
+    </div>
 
-    </section>
-
-    <footer>
-
-        <p>Bengal Tigers, Copyrights &copy; 2020</p>
-    </footer>
-
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="scripts/scripts.js"></script>
+    
 </body>

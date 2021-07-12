@@ -476,18 +476,7 @@
 <script>
     baguetteBox.run('.tournament-gallery');
 </script>
-<script>
-	$(window).scroll(function(){
-		if($(this).scrollTop()>100){
-			$(".back-to-top").fadeIn();
-		}else{
-			$(".back-to-top").fadeOut();
-		}
-	});
-	$(".back-to-top").click(function(){
-		$("html, body").animate({scrollTop:0},1000)
-	})
-</script>
+<script src="scripts/scripts.js"></script>
 </body>
 </html>
 
