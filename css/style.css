@@ -17,6 +17,7 @@ html,body{
         min-height: 60px;
         border-bottom: #e8491d 3px solid;
         border-top: #e8491d 3px solid;
+        width: 100%;
       }
       #logo{
           margin-top: 5px;
@@ -238,14 +239,79 @@ html,body{
      margin-top: .8rem;
      margin-bottom: 1rem;
    }
-
    hr.light-100 {
     border-top: 1px solid #d5d5d5;
     width: 75%;
     margin-top: .8rem;
     margin-bottom: 1rem;
   }
-footer{
+
+  /* ---- Services page ----  */
+  #newsLetter {
+    font-family: 'poppins';
+    font-size: 15px;
+    padding:15px ;
+    margin-top: 60px;
+    color: #ffffff;
+    background: #35424a;
+  }
+  #newsLetter h1 {
+    /* font-size: 30px; */
+    color: #fff;
+  }
+  #newsLetter input[type="email"]{
+    font-size: 14px;
+    padding: 7px;
+    margin: none;
+    height: 37px;
+    width: 250px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline: none;
+}
+.button_1 {
+  background-color: #e8491d; 
+  color: #fff;
+  height: 38px;
+  padding: 7px;
+  margin: 10px 0 0 -4px;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  outline: none !important;
+}
+ul#services li{
+  font-family: 'poppins';
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom:5px ;
+    background:#e6e6e6 ;
+}
+.joinForm{
+  font-family: 'poppins';
+  font-size: 14px;
+  background: #35424a;
+  padding: 24px;
+  color: #fff;
+  margin: 10px;
+}
+.joinForm input{
+  font-size: 12px;
+}
+#terms {
+  font-size: 14px;
+  color: #cccccc;
+}
+ .aboutRight {
+  font-family: 'poppins';
+  font-size: 14px;
+  background: #35424a;
+  padding: 20px !important;
+  color: #fff;
+  margin: 10px;
+ }
+
+  footer{
      background-color: #e8491d; 
    }
 footer p{
